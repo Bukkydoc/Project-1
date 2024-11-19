@@ -1,0 +1,16 @@
+/* Reset some default styles / body { margin: 0; font-family: Arial, sans-serif; } / Header styles / header { background-color: #4CAF50; color: white; text-align: center; padding: 1em 0; } / Container styles / .container { display: flex; / Enables Flexbox / flex-wrap: wrap; / Allows items to wrap onto the next line / justify-content: space-around; / Distributes space between items / padding: 20px; } / Item styles / .item { background-color: #f2f2f2; / Light gray background / border: 1px solid #ccc; / Border around items / padding: 20px; margin: 10px; flex: 1 1 300px; / Grow, shrink, and set a base width of 300px / } / Responsive images / img { max-width: 100%; / Prevents overflow / height: auto; / Maintains aspect ratio / } / Footer styles */ footer { text-align: center; padding: 10px; background-color: #4CAF50; color: white; }
+p {
+    font-family: 'Open Sans';
+}
+h3 {
+    font-family: open sans-serif;
+    font-size: 25px;
+}
+.first {
+    font-family: 'Courier New', Courier, monospace;
+}
+button {
+    padding: 15px;
+    border-color: black;
+    color: black;
+}
